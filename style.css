@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.container {
+    width: 360px;
+    background-color: #f5f2ee;
+    padding: 8px;
+}
+
+
+/* Common Card */
+
+.card,
+.hero {
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 18px;
+}
+
+
+/* Hero */
+
+.hero {
+    background-color: #7350d8;
+    color: white;
+    text-align: center;
+    padding: 18px 10px;
+}
+
+.hero h1 {
+    font-size: 22px;
+}
+
+.hero h2 {
+    color: #ffd34d;
+    font-size: 20px;
+}
+
+.stars {
+    color: #ffd34d;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.hero p {
+    font-size: 8px;
+}
+
+
+/* White Card */
+
+.white {
+    background-color: white;
+    color: #222;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.icons span {
+    background-color: #f3f0eb;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.card h3 {
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+
+/* Yellow Card */
+
+.yellow {
+    background-color: #ffd16b;
+    color: #222;
+}
+
+.calendar {
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.calendar-top {
+    font-size: 8px;
+    color: #777;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar-days {
+    display: flex;
+    justify-content: space-around;
+    color: #7651d9;
+    margin-top: 15px;
+}
+
+
+/* Light Purple */
+
+.purple-light {
+    background-color: #dcd0ff;
+}
+
+.chart-box {
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 12px;
+}
+
+.chart-box h4 {
+    font-size: 9px;
+}
+
+.chart {
+    height: 100px;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.bar {
+    width: 12px;
+    background-color: #7552d9;
+    border-radius: 5px 5px 0 0;
+}
+
+.b1 {
+    height: 25px;
+}
+
+.b2 {
+    height: 45px;
+}
+
+.b3 {
+    height: 30px;
+}
+
+.b4 {
+    height: 70px;
+}
+
+.b5 {
+    height: 55px;
+}
+
+.b6 {
+    height: 42px;
+}
+
+.b7 {
+    height: 65px;
+}
+
+.purple-light p {
+    font-size: 10px;
+    margin-top: 12px;
+}
+
+
+/* Purple Card */
+
+.purple {
+    background-color: #7350d8;
+    color: white;
+    text-align: center;
+}
+
+.followers-box {
+    background-color: white;
+    color: #222;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: left;
+}
+
+.followers-box small {
+    font-size: 9px;
+}
+
+.followers-box h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.small-chart {
+    display: flex;
+    align-items: end;
+    height: 50px;
+    gap: 8px;
+}
+
+.small-chart div {
+    width: 15px;
+    background-color: #7552d9;
+}
+
+.small-chart div:nth-child(1) {
+    height: 20px;
+}
+
+.small-chart div:nth-child(2) {
+    height: 30px;
+}
+
+.small-chart div:nth-child(3) {
+    height: 40px;
+}
+
+.small-chart div:nth-child(4) {
+    height: 50px;
+}
+
+.purple h2 {
+    margin-top: 15px;
+}
+
+.purple p {
+    font-size: 13px;
+}
+
+
+/* Growth */
+
+.growth {
+    text-align: left;
+}
+
+.growth h1 {
+    font-size: 30px;
+}
+
+.growth p {
+    font-size: 11px;
+}
+
+.people {
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+
+/* Create Post */
+
+.cream {
+    background-color: #fff0dd;
+}
+
+.cream span {
+    color: #7250d8;
+}
+
+button {
+    border: none;
+    background-color: #ffd044;
+    padding: 10px 16px;
+    border-radius: 20px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+
+/* AI Content */
+
+.ai-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 9px;
+}
+
+.ai-box hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
